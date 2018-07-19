@@ -1,0 +1,20 @@
+.resident-dropdowns {
+    .card {
+        .card-header {
+        transition: all .5s;
+            &:hover {
+                background-color: lightgray;
+            }
+        }
+    }
+    .btn-link:hover {
+        text-decoration: none;
+    }
+    .btn-link {
+        color: black;
+        &:focus {
+            text-decoration: none;
+        }
+        width: 100%;
+    }
+}

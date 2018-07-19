@@ -57,10 +57,13 @@ p.indent {
 // ===== LANDING CARDS =====
 
 section.landing-cards {
-    padding-bottom: 160px;
+    #services-button {
+        color: black;
+    }
+    padding-bottom: 170px;
     .card {
         background-color: rgba(0,0,0,0.8);
-        min-height: 470px;
+        min-height: 485px;
         // font-weight: bold;
         color: white;
         img {
@@ -68,16 +71,37 @@ section.landing-cards {
             max-height: 148px;
         }
     }
-    padding-top: 160px;
+    padding-top: 170px;
     svg {
         font-size: 45px;
     }
     .fix-margin-1 {
-        margin-top: 65px !important;
+        margin-top: 72px !important;
     }
 }
 
 .parallax-cards {
     height: auto;
     background: transparent;
+}
+
+
+// ====== SERVICES ======
+
+section.services {
+    padding: 60px 0;
+    background-color: #EBEAE6;
+    ul {
+        margin-top: 40px;
+        li {
+            padding-bottom: 10px;
+            font-size: 20px;
+            svg {
+                color: green;
+                padding-right: 10px;
+                font-size: 34px;
+            }
+            list-style: none;
+        }
+    }
 }

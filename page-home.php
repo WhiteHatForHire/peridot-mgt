@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-lg-6 offset-lg-3 landing-center">
                     <h1 class="text-center">Premier Property Management Throughout New York City</h1>
-                <a href="#landing-1-snap"><button type="button" class="mx-auto btn btn-light">The Peridot Difference</button></a> 
+                <a id="peridot-button" ><button type="button" class="mx-auto btn btn-light">The Peridot Difference</button></a> 
                    <!--<a class="" href="#"><i class="mx-auto block-link down-arrow fas fa-chevron-circle-down"></i></a>-->
                 </div>
             </div>
@@ -52,7 +52,7 @@
                         <p class="card-text">We manage residential, commercial and industrial buildings in the 
                         New York City area and surroundings. We Maximize profits and minimize expenses through our 
                         experience and knowledge. We additionally are serving the needs of all real estate property owners who hold investments such as condominiums and co-op buildings.</p>
-                        <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                        <a href="#" class="btn btn-light">Contact Us</a>
                       </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@
                         <p class="card-text">We are a residential and commercial management company which focuses on serving the 
                         needs of property owners who hold investment condominiums, co-op rental buildings, 
                         and commercial properties in New York.</p>
-                        <!--<a href="#" class="btn btn-primary fix-margin-1">Go somewhere</a>-->
+                        <a id="services-button" class="btn btn-light fix-margin-1">See Services</a>
                       </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                         <p class="card-text">Through hands on day-to-day management with the latest computerized 
                         technology for rent payment, maintenance records and a constant management analysis for each building. 
                         We have a very professional advertising team to ensure 100% occupancy all the time. We will maximize your rental income while keeping operating expenses at a minimum</p>
-                        <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                        <a href="#" class="btn btn-light">Read Our Blog</a>
                       </div>
                     </div>
                 </div>
@@ -86,11 +86,46 @@
             </div>
             <!-- END ROW -->
            
+           <!--<div class="flex-center contact-button">-->
+           <!--    <a href="#" class="btn btn-success mx-auto">Contact Us</a>-->
+           <!--</div>-->
            
             
         </div>
     </section>
     <!-- LANDING CARDS END --> 
+    
+    
+    <!-- SERVICES START -->
+    <section class="services">
+        <div class="container">
+                <h1 class="text-center">Our Services</h1>
+            <div class="row">
+                
+                <div class="col-lg-6">
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Rent Collection</li>
+                        <li><i class="fas fa-check-circle"></i> Expense Tracking</li>
+                        <li><i class="fas fa-check-circle"></i> Audit Insurance Policies & Mortgage Escrows</li>
+                        <li><i class="fas fa-check-circle"></i> Owner Representation in Board Meetings and Court Appearances</li>
+                        <li><i class="fas fa-check-circle"></i> Answer Tenant Requests</li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-6">
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Response to Maintenance Issues</li>
+                        <li><i class="fas fa-check-circle"></i> Provide Lease Agreements and Revisions</li>
+                        <li><i class="fas fa-check-circle"></i> Track and Apply Legal changes for each Borough</li>
+                        <li><i class="fas fa-check-circle"></i> Provide trusted Vendores and Contractors for Renovations and Emergency Repairs</li>
+                        <li><i class="fas fa-check-circle"></i> Offer Transparent Accounting and Tax Information</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- SERVICES END -->
 <!--</div>-->
 <!-- END MAIN CONTENT -->
 <?php get_footer(); ?>

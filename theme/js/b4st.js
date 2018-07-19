@@ -12,7 +12,16 @@
 	'use strict';
 
 	$(document).ready(function() {
-
+		$("#peridot-button").click(function() {
+		    $([document.documentElement, document.body]).animate({
+		        scrollTop: $("#landing-1-snap").offset().top
+		    }, 1000);
+		});
+		$("#services-button").click(function() {
+		    $([document.documentElement, document.body]).animate({
+		        scrollTop: $(".services").offset().top
+		    }, 700);
+		});
 
 		// var Body = $('body');
 		// Body.addClass('preloader-site');

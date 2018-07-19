@@ -6,6 +6,7 @@
     <div class="col-sm">
       <div id="content" role="main">
         <?php get_template_part('loops/page-content'); ?>
+        <?php the_content(); ?>
       </div><!-- /#content -->
     </div>
 
