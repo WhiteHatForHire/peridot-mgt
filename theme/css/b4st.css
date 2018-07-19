@@ -186,3 +186,22 @@ section.landing-1 {
 
 p.indent {
   text-indent: 20px; }
+
+section.landing-cards {
+  padding-bottom: 160px;
+  padding-top: 160px; }
+  section.landing-cards .card {
+    background-color: rgba(0, 0, 0, 0.8);
+    min-height: 470px;
+    color: white; }
+    section.landing-cards .card img {
+      min-height: 130px;
+      max-height: 148px; }
+  section.landing-cards svg {
+    font-size: 45px; }
+  section.landing-cards .fix-margin-1 {
+    margin-top: 65px !important; }
+
+.parallax-cards {
+  height: auto;
+  background: transparent; }

@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-lg-6 offset-lg-3 landing-center">
                     <h1 class="text-center">Premier Property Management Throughout New York City</h1>
-                <a href="#landing-1-snap"><button type="button" class="mx-auto btn btn-light">See the Peridot Difference</button></a> 
+                <a href="#landing-1-snap"><button type="button" class="mx-auto btn btn-light">The Peridot Difference</button></a> 
                    <!--<a class="" href="#"><i class="mx-auto block-link down-arrow fas fa-chevron-circle-down"></i></a>-->
                 </div>
             </div>
@@ -17,7 +17,7 @@
 <!--<div class="main-content">-->
 
     <!-- LANDING 1 START-->
-    <section class="landing-1" id="landing-1-snap">
+    <section class="landing-1" >
         <div class="container">
             <div class="row d-flex align-items-center">
                 <!--<div class="col-lg-2 gem">-->
@@ -39,15 +39,55 @@
      <!-- LANDING 1 END-->
     
     <!-- LANDING CARDS START --> 
-    <section class="landing-cards">
+    <section class="landing-cards parallax-cards" id="landing-1-snap" data-parallax="scroll" data-image-src="/wp-content/uploads/2018/07/ny-dark.jpg">
         <div class="container">
+            
             <div class="row">
+                
                 <div class="col-lg-4">
-                    <h2 class="text-center">Who We Are</h1>
-                    <i class="fas fa-users block-link mx-auto"></i>
-                    <p class="text-center">We manage residential, commercial and industrial buildings in the NEW YORK CITY area and surroundings. We Maximize profits and minimize expenses through our experience and knowledge. We additionally are serving the needs of all real estate property owners who hold investments such as condominiums and co-op buildings.</p>
+                    <div class="card" style="width: auto;">
+                      <img class="card-img-top" src="/wp-content/uploads/2018/07/analysis-e1531960493342.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h3 class="text-center">Who We Are</h1>
+                        <p class="card-text">We manage residential, commercial and industrial buildings in the 
+                        New York City area and surroundings. We Maximize profits and minimize expenses through our 
+                        experience and knowledge. We additionally are serving the needs of all real estate property owners who hold investments such as condominiums and co-op buildings.</p>
+                        <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                      </div>
+                    </div>
                 </div>
+                
+                <div class="col-lg-4">
+                    <div class="card" style="width: auto;">
+                      <img class="card-img-top" src="/wp-content/uploads/2018/07/business-1-e1531962996998.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h3 class="text-center">What We Do</h1>
+                        <p class="card-text">We are a residential and commercial management company which focuses on serving the 
+                        needs of property owners who hold investment condominiums, co-op rental buildings, 
+                        and commercial properties in New York.</p>
+                        <!--<a href="#" class="btn btn-primary fix-margin-1">Go somewhere</a>-->
+                      </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 ">
+                    <div class="card" style="width: auto;">
+                      <img class="card-img-top" src="/wp-content/uploads/2018/07/handshake-e1531961062912.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h3 class="text-center">How We Do It</h1>
+                        <p class="card-text">Through hands on day-to-day management with the latest computerized 
+                        technology for rent payment, maintenance records and a constant management analysis for each building. 
+                        We have a very professional advertising team to ensure 100% occupancy all the time. We will maximize your rental income while keeping operating expenses at a minimum</p>
+                        <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                      </div>
+                    </div>
+                </div>
+                
             </div>
+            <!-- END ROW -->
+           
+           
+            
         </div>
     </section>
     <!-- LANDING CARDS END --> 
