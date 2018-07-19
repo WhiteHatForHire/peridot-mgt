@@ -1,0 +1,57 @@
+.parallax-landing {
+    height: 100vh;
+    background: transparent;
+}
+
+.call-to-action {
+    height: 1000px;
+    a {
+        text-decoration: none;
+    }
+    button {
+        margin-top: 20px;
+        display: block;
+    }
+    .landing-center {
+        color: white;
+        background-color: rgba(0,0,0,0.4);
+        margin-top: 50vh;
+        padding: 30px;
+    }
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.down-arrow {
+    font-size: 38px;
+    color: white;
+}
+
+.block-link {
+    display: block;
+}
+
+.gem {
+    margin-top: 40px;
+}
+
+// ====== SECTION .LANDING-1 =======
+
+section.landing-1 {
+    background-color: #EBEAE6;
+    padding: 70px 0;
+    .gem {
+        
+    }
+}
+
+p.indent {
+    text-indent: 20px;
+}
+
+
+// ===== LANDING CARDS =====
