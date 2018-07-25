@@ -1,20 +1,61 @@
-.resident-dropdowns {
-    .card {
-        .card-header {
-        transition: all .5s;
-            &:hover {
-                background-color: lightgray;
-            }
-        }
-    }
-    .btn-link:hover {
-        text-decoration: none;
-    }
-    .btn-link {
-        color: black;
-        &:focus {
-            text-decoration: none;
-        }
-        width: 100%;
-    }
+.accordian-title {
+    color: white !important;
+    text-align: center;
+}
+
+.sub-accordian {
+    color: white !important;
+    text-align: center;
+    font-style: italic;
+}
+
+.accordian-text {
+    color: black !important;
+    text-indent: 1em;
+    text-align: center;
+    font-size: 18px;
+}
+
+.elementor-accordion-icon {
+    color: white !important;
+}
+.elementor-toggle-icon {
+    color: white !important;
+}
+
+.elementor-tab-title {
+
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.elementor-tab-content {
+    background-color: rgba(224, 224, 224, 0.95);
+}
+
+.resident-bg {
+    min-height: 100vh;
+    background-size: cover;
+    background-image: url('/wp-content/uploads/2018/07/residents2small.jpg');
+}
+
+.accordian-resident {
+
+    padding-bottom: 100px;
+}
+
+.accordian-resident > .elementor-widget-container {
+        background-color: rgba(181, 181, 181, 0.1) !important;
+}
+
+#elementor-tab-title-1124 {
+    max-height: 98px !important;
+}
+.resident-header {
+    border-radius: 10px;
+    max-width: 500px;
+    padding: 10px;
+    // margin-top: 50px !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: 50px auto;
 }

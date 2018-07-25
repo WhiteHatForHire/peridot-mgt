@@ -1,7 +1,7 @@
 <?php /* Template Name: Home Page */ ?>
 
 <?php get_header(); ?>
-    <div class="parallax-landing" data-parallax="scroll" data-image-src="/wp-content/uploads/2018/07/skyline-3.jpg">
+    <div class="parallax-landing" data-speed="0.2" data-parallax="scroll" data-image-src="/wp-content/uploads/2018/07/skyline-3.jpg">
         <div class="call-to-action">
             <div class="row">
                 <div class="col-lg-6 offset-lg-3 landing-center">
@@ -39,7 +39,7 @@
      <!-- LANDING 1 END-->
     
     <!-- LANDING CARDS START --> 
-    <section class="landing-cards parallax-cards" id="landing-1-snap" data-parallax="scroll" data-image-src="/wp-content/uploads/2018/07/ny-dark.jpg">
+    <section class="landing-cards parallax-cards" id="landing-1-snap" data-speed="0.2" data-parallax="scroll" data-image-src="/wp-content/uploads/2018/07/ny-dark.jpg">
         <div class="container">
             
             <div class="row">

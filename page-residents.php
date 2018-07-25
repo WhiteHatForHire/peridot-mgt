@@ -4,7 +4,8 @@
 
     
 <!-- START MAIN CONTENT -->
-<div class="main-content">
+<div class="main-content resident-bg">
+    <h1 class="text-center resident-header">We Make Life Easier</h1>
     <?php the_content(); ?>
   <!--<div class="container resident-dropdowns">-->
       <!-- START ROW -->
