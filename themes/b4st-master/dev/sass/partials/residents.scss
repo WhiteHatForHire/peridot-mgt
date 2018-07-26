@@ -64,7 +64,7 @@ footer{
   display:block;
   background-color: Black;
   width:100%;
-  min-height:400px;
+//   min-height:400px;
   color:#fff;
   dl{
     list-style:none;
@@ -72,6 +72,10 @@ footer{
     display:block;
     float:left;
   }
+}
+.plug {
+    padding-top: 20px;
+    font-size: 12px;
 }
 .img-foot{
   max-width:100%;
@@ -90,4 +94,8 @@ footer{
   background-color:rgba(255,255,255,0.1);
   border:none;
   border-radius: 10px;
+  svg {
+      margin: 10px;
+      font-size: 40px;
+  }
 }

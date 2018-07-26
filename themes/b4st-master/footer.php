@@ -50,11 +50,12 @@
       <div class="col-md-4">
         <div class="well well-lg">
           <h4>Find Us Online</h4>
-          <a href="https://www.facebook.com/NewYorkCityLocal/" target="_blank"><i class="fa fa-facebook-square"></i></a>
-          <a href="https://www.instagram.com/peridotmgt/" target="_blank"></a>
+          <a href="https://www.facebook.com/NewYorkCityLocal/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+          <a href="https://www.instagram.com/peridotmgt/" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
       </div>
     </div>
+    <p class="text-center plug">Site Hand-Crafted by <a target="blank" href="https://webcontentdevelopment.com">Web Content Development</a></p>
   </div>
 </footer>
 
