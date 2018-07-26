@@ -27,7 +27,7 @@ The Single Post
         wp_link_pages();
       ?>
     </main>
-    <footer class="mt-5 border-top pt-3">
+    <div class="mt-5 border-top pt-3">
       <p>
         <?php _e('Category: ', 'b4st'); the_category(', ') ?> | <?php if (has_tag()) { the_tags('Tags: ', ', '); ?> | <?php } _e('Comments', 'b4st'); ?>: <?php printf( number_format_i18n( get_comments_number() ) ); ?>
       </p>
@@ -39,7 +39,7 @@ The Single Post
           <p class="author-other-posts mb-0 border-top pt-3"><?php _e('Other posts by ', 'b4st'); the_author_posts_link(); ?></p>
         </div>
       </div><!-- /.author-bio -->
-    </footer>
+    </div>
   </article>
 <?php
     if ( comments_open() || get_comments_number() ) :

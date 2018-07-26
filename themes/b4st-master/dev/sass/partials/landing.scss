@@ -55,12 +55,14 @@ p.indent {
 
 
 // ===== LANDING CARDS =====
-
+.no-img-bg {
+  background-color: rgb(206, 206, 206);
+}
 section.landing-cards {
     #services-button {
         color: black;
     }
-    padding-bottom: 170px;
+    padding-bottom: 120px;
     .card {
         background-color: rgba(0,0,0,0.8);
         min-height: 485px;
@@ -71,7 +73,7 @@ section.landing-cards {
             max-height: 148px;
         }
     }
-    padding-top: 170px;
+    padding-top: 120px;
     svg {
         font-size: 45px;
     }
@@ -89,7 +91,7 @@ section.landing-cards {
 // ====== SERVICES ======
 
 section.services {
-    padding: 60px 0;
+    padding: 40px 0;
     background-color: #EBEAE6;
     ul {
         margin-top: 40px;

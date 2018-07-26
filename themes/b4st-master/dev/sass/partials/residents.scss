@@ -37,6 +37,45 @@
     min-height: 175vh;
     background-image: url('/wp-content/uploads/2018/07/residents2small.jpg');
 }
+.tint {
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+.overlay {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    // position: fixed;
+
+    background: rgba(0, 0, 0, 0.7); /*can be anything, of course*/
+}
+.owner-bg {
+    background-size: cover;
+    min-height: 120vh;
+    background-image: url('/wp-content/uploads/2018/07/rock-min-dark.jpg');
+}
+.blog-content {
+    padding-bottom: 40px;
+   margin-top: 125px;
+    background-color: rgba(255,255,255,0.85);
+}
+.blog-bg {
+    background-size: cover;
+    min-height: 120vh;
+    background-image: url('/wp-content/uploads/2018/07/rock-min-dark.jpg');
+}
+#wpcf7-f107-p26-o1 {
+    margin-bottom: 50px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+}
+.contact-bg {
+    background-size: cover;
+    // min-height: 120vh;
+    background-image: url('/wp-content/uploads/2018/07/skyline2.jpg');
+}
 
 .accordian-resident {
 
@@ -55,9 +94,18 @@
     max-width: 500px;
     padding: 1px;
     // margin-top: 50px !important;
-    background-color: rgba(0, 0, 0, 0.5);
+    // background-color: rgba(0, 0, 0, 0.5);
     color: white;
     margin: 50px auto;
+}
+.owner-header {
+    border-radius: 10px;
+    max-width: 500px;
+    padding: 10px;
+    // margin-top: 50px !important;
+    // background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: 10px auto;
 }
 
 footer{
@@ -98,4 +146,10 @@ footer{
       margin: 10px;
       font-size: 40px;
   }
+}
+.flex {
+    display: flex;
+}
+.center-form {
+    margin: 0 auto;
 }

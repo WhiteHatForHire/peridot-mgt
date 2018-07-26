@@ -35,14 +35,14 @@
             <!--<dt>Services</dt>-->
             <!--<dd><a href="/">Home</a></dd>-->
             <dd><a href="/residents">Residents</a></dd>
-            <dd><a href="#">Owners</a></dd>
+            <dd><a href="/owners">Owners</a></dd>
 
           </dl>
           <dl>
             <!--<dt>Pages</dt>-->
             <dd><a href="/">Home</a></dd>
             <dd><a href="/blog">Blog</a></dd>
-            <dd><a href="/contact">Contact Us</a></dd>
+            <dd><a href="/contact-us">Contact Us</a></dd>
           </dl>
           <span>&copy;<?php echo date('Y'); ?> Peridot Management Group</span>
         </div>

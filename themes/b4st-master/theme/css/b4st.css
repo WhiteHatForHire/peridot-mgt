@@ -1,5 +1,5 @@
 .navbar {
-  background-color: rgba(0, 0, 0, 0.2) !important;
+  background-color: rgba(255, 255, 255, 0.5) !important;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease; }
   .navbar a.nav-link:hover {
@@ -198,9 +198,12 @@ section.landing-1 {
 p.indent {
   text-indent: 20px; }
 
+.no-img-bg {
+  background-color: #cecece; }
+
 section.landing-cards {
-  padding-bottom: 170px;
-  padding-top: 170px; }
+  padding-bottom: 120px;
+  padding-top: 120px; }
   section.landing-cards #services-button {
     color: black; }
   section.landing-cards .card {
@@ -220,7 +223,7 @@ section.landing-cards {
   background: transparent; }
 
 section.services {
-  padding: 60px 0;
+  padding: 40px 0;
   background-color: #EBEAE6; }
   section.services ul {
     margin-top: 40px; }
@@ -281,6 +284,43 @@ section.services {
   min-height: 175vh;
   background-image: url("/wp-content/uploads/2018/07/residents2small.jpg"); }
 
+.tint {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); }
+
+.overlay {
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  /*can be anything, of course*/ }
+
+.owner-bg {
+  background-size: cover;
+  min-height: 120vh;
+  background-image: url("/wp-content/uploads/2018/07/rock-min-dark.jpg"); }
+
+.blog-content {
+  padding-bottom: 40px;
+  margin-top: 125px;
+  background-color: rgba(255, 255, 255, 0.85); }
+
+.blog-bg {
+  background-size: cover;
+  min-height: 120vh;
+  background-image: url("/wp-content/uploads/2018/07/rock-min-dark.jpg"); }
+
+#wpcf7-f107-p26-o1 {
+  margin-bottom: 50px;
+  padding: 10px 40px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7); }
+
+.contact-bg {
+  background-size: cover;
+  background-image: url("/wp-content/uploads/2018/07/skyline2.jpg"); }
+
 .accordian-resident {
   padding-bottom: 100px; }
 
@@ -294,9 +334,15 @@ section.services {
   border-radius: 10px;
   max-width: 500px;
   padding: 1px;
-  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   margin: 50px auto; }
+
+.owner-header {
+  border-radius: 10px;
+  max-width: 500px;
+  padding: 10px;
+  color: white;
+  margin: 10px auto; }
 
 footer {
   display: block;
@@ -333,3 +379,11 @@ footer {
   .well svg {
     margin: 10px;
     font-size: 40px; }
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.center-form {
+  margin: 0 auto; }
