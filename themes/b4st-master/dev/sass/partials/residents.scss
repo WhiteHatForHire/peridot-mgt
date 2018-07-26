@@ -33,8 +33,8 @@
 }
 
 .resident-bg {
-    min-height: 100vh;
     background-size: cover;
+    min-height: 175vh;
     background-image: url('/wp-content/uploads/2018/07/residents2small.jpg');
 }
 
@@ -53,9 +53,41 @@
 .resident-header {
     border-radius: 10px;
     max-width: 500px;
-    padding: 10px;
+    padding: 1px;
     // margin-top: 50px !important;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     margin: 50px auto;
+}
+
+footer{
+  display:block;
+  background-color: Black;
+  width:100%;
+  min-height:400px;
+  color:#fff;
+  dl{
+    list-style:none;
+    width:50%;
+    display:block;
+    float:left;
+  }
+}
+.img-foot{
+  max-width:100%;
+}
+.identity{
+  font-size:16px;
+}
+.container-foot{
+  padding-top:30px;
+}
+.identity{
+  font-size:16px;
+}
+.well{
+    padding: 10px;
+  background-color:rgba(255,255,255,0.1);
+  border:none;
+  border-radius: 10px;
 }
