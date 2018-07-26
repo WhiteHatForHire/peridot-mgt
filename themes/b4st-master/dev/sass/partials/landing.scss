@@ -105,3 +105,27 @@ section.services {
         }
     }
 }
+
+.quote-container {
+    border-radius: 5px;
+    padding: 20px 20px 70px 20px;
+    height: auto;
+    background-color: rgba(0,0,0,0.8);
+        color: white;
+        width: 80%;
+        margin: 0 auto;
+    .landing-quote {
+        margin: 0 auto;
+        .float-right {
+            float: right;
+        }
+        svg {
+            // margin: 10px;
+        }
+        width: 80%;
+        font-weight: 500;
+        font-size: 22px;
+       
+    }
+}
+

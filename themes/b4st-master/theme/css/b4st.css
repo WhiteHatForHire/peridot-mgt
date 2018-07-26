@@ -233,6 +233,22 @@ section.services {
         padding-right: 10px;
         font-size: 34px; }
 
+.quote-container {
+  border-radius: 5px;
+  padding: 20px 20px 70px 20px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  width: 80%;
+  margin: 0 auto; }
+  .quote-container .landing-quote {
+    margin: 0 auto;
+    width: 80%;
+    font-weight: 500;
+    font-size: 22px; }
+    .quote-container .landing-quote .float-right {
+      float: right; }
+
 .accordian-title {
   color: white !important;
   text-align: center; }

@@ -94,6 +94,31 @@
         </div>
     </section>
     <!-- LANDING CARDS END --> 
+    <!-- LANDING CARDS START --> 
+    <section class="landing-cards parallax-cards" id="landing-1-snap" data-speed="0.2" data-parallax="scroll" data-image-src="/wp-content/uploads/2018/07/ny-dark.jpg">
+        <div class="container">
+            
+            <div class="row">
+                
+                <div class="col-lg-12">
+                    <div class="quote-container">
+                    <i class="fas fa-quote-left"></i><p class="text-center landing-quote">We at Peridot Management Group know the stress of owning real estate in New York City. Our services are designed to take the stress off your shoulders, make your real estate investments profitable, and your role as owner as smooth as possible. We take care of the hard work that takes up so much of an owner’s time.</p> 
+                    <i class="fas float-right fa-quote-right"></i>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <!-- END ROW -->
+           
+           <!--<div class="flex-center contact-button">-->
+           <!--    <a href="#" class="btn btn-success mx-auto">Contact Us</a>-->
+           <!--</div>-->
+           
+            
+        </div>
+    </section>
+    <!-- LANDING CARDS END --> 
     
     
     <!-- SERVICES START -->
