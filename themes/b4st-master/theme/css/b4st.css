@@ -318,8 +318,12 @@ section.services {
   background-color: rgba(0, 0, 0, 0.7); }
 
 .contact-bg {
+  min-height: 100vh;
+  color: white !important;
   background-size: cover;
   background-image: url("/wp-content/uploads/2018/07/skyline2.jpg"); }
+  .contact-bg .center-form {
+    padding-top: 40px; }
 
 .accordian-resident {
   padding-bottom: 100px; }
@@ -387,3 +391,18 @@ footer {
 
 .center-form {
   margin: 0 auto; }
+
+.banner {
+  position: relative;
+  overflow: hidden; }
+
+.banner__video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  min-width: 100%;
+  height: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 0; }
