@@ -82,7 +82,7 @@
                 
                 <div class="col-lg-4">
                     <div class="card" style="width: auto;">
-                      <img class="card-img-top" src="/wp-content/uploads/2018/07/analysis-e1531960493342.jpg" alt="Card image cap">
+                      <img class="card-img-top" src="/wp-content/themes/b4st-master/img/who_we_are.png" alt="Card image cap">
                       <div class="card-body">
                         <h3 class="text-center">Who We Are</h1>
                         <p class="card-text">We manage residential, commercial and industrial buildings in the 
@@ -95,7 +95,7 @@
                 
                 <div class="col-lg-4">
                     <div class="card" style="width: auto;">
-                      <img class="card-img-top" src="/wp-content/uploads/2018/07/business-1-e1531962996998.jpg" alt="Card image cap">
+                      <img class="card-img-top" src="/wp-content/themes/b4st-master/img/what_we_do.png" alt="Card image cap">
                       <div class="card-body">
                         <h3 class="text-center">What We Do</h1>
                         <p class="card-text">We are a residential and commercial management company which focuses on serving the 
@@ -108,7 +108,7 @@
                 
                 <div class="col-lg-4 ">
                     <div class="card" style="width: auto;">
-                      <img class="card-img-top" src="/wp-content/uploads/2018/07/handshake-e1531961062912.jpg" alt="Card image cap">
+                      <img class="card-img-top" src="/wp-content/themes/b4st-master/img/how_we_do.png" alt="Card image cap">
                       <div class="card-body">
                         <h3 class="text-center">How We Do It</h1>
                         <p class="card-text">Through hands on day-to-day management with the latest computerized 
